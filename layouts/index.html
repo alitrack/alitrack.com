@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ .Content }}
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ if $posts }}
+<h2>最新文章</h2>
+{{ range first 3 $posts }}
+<div class="post-item">
+  <time>{{ .Date.Format "2006-01-02" }}</time>
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+</div>
+{{ end }}
+<p><a href="/posts">→ 所有文章</a></p>
+{{ end }}
+{{ end }}

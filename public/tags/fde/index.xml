@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FDE on Steven Lee · FDE</title><link>https://alitrack.com/tags/fde/</link><description>Recent content in FDE on Steven Lee · FDE</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alitrack.com/tags/fde/index.xml" rel="self" type="application/rss+xml"/><item><title>中国需要 FDE 吗？一个 15 年工程师的答案</title><link>https://alitrack.com/posts/2026-06-24-china-needs-fde/</link><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate><guid>https://alitrack.com/posts/2026-06-24-china-needs-fde/</guid><description>&lt;p>2026 年 5 月，硅谷三家公司在一周之内同时宣布扩编 FDE 团队。&lt;/p>
+&lt;p>OpenAI 成立了 Deployment Company，Google Cloud 新建 AI 部门，Anthropic 公布了新一批 FDE 招聘。FDE——Forward Deployed Engineer，前沿部署工程师。&lt;/p>
+&lt;p>a16z 说这是&amp;quot;硅谷最热门的岗位&amp;quot;。Pragmatic Engineer 写了一整期 newsletter 分析它。Indeed 的数据显示，FDE 岗位从 2024 年到 2025 年增长了 800%。&lt;/p>
+&lt;p>看完这些新闻，我盯着屏幕愣了好久。&lt;/p>
+&lt;p>不是因为我觉得这个岗位有多新奇。恰恰相反——&lt;strong>我过去 15 年的每一份工作，都是 FDE。只是直到昨天，我才知道它叫这个名字。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="车间里的-fde">车间里的 FDE&lt;/h2>
+&lt;p>2008 年，我在一家制造企业写 ERP。&lt;/p>
+&lt;p>生产线上的工人戴着沾满机油的手套，对着扫码枪输入工单号。系统界面是我写的，按钮大小是我定的——但我没戴过那副手套。&lt;/p>
+&lt;p>直到有一天，一个操作工喊住我：&amp;ldquo;小李，这个&amp;rsquo;确认&amp;rsquo;按钮能不能放大？我戴着手套点不准。&amp;rdquo;&lt;/p>
+&lt;p>10 分钟改 CSS。她从此每天少错 30 次。&lt;/p>
+&lt;p>这不是一个&amp;quot;用户需求&amp;quot;的故事。这是一个 FDE 的第一课：&lt;strong>你必须在现场。因为没人会在需求文档里写&amp;quot;戴手套点不准按钮&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>后来我成了这家公司的 IT 部长。直接向老板汇报。我的工作不再是&amp;quot;写代码&amp;quot;，而是——&lt;/p>
+&lt;p>老板说：&amp;ldquo;工厂的产能数据能不能实时看到？&amp;rdquo;
+我说：&amp;ldquo;能。&amp;ldquo;然后开始做一件事叫&lt;strong>翻译&lt;/strong>。&lt;/p>
+&lt;p>&amp;ldquo;产能&amp;quot;在不同车间有不同含义——冲压车间看产出件数，喷涂车间看良品率，装配车间看工时利用率。&amp;ldquo;实时&amp;quot;对老板意味着一分钟刷新一次大屏，但对数据库意味着每分钟全表扫描。&lt;/p>
+&lt;p>把老板的模糊愿景翻译成可执行的技术方案——这就是 FDE。&lt;/p>
+&lt;hr>
+&lt;h2 id="零售业的-fde">零售业的 FDE&lt;/h2>
+&lt;p>2016 年，我跳进了零售业。带一个数据分析团队，做机器学习的库存预测。&lt;/p>
+&lt;p>客户是连锁超市。他们说：&amp;ldquo;帮我预测下个月畅销品。&amp;rdquo;&lt;/p>
+&lt;p>常规做法：拿历史销量数据，跑一遍 XGBoost，输出 Top 50，交差。&lt;/p>
+&lt;p>我的做法：先在他们公司蹲了两周。&lt;/p></description></item></channel></rss>

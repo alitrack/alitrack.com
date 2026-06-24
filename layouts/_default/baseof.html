@@ -1,0 +1,13 @@
+{{- partial "head.html" . -}}
+<body>
+<header>
+  <nav>
+    <a href="/">Steven Lee</a>
+    {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    <a href="https://github.com/alitrack">GitHub</a>
+    <a href="https://twitter.com/alitrack">Twitter</a>
+  </nav>
+</header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer>&copy; {{ now.Format "2006" }} Steven Lee · FDE</footer>
+</body></html>
