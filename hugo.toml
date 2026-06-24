@@ -1,0 +1,37 @@
+baseURL = "https://alitrack.com"
+languageCode = "zh-CN"
+title = "Steven Lee · FDE"
+theme = "hugo-coder"
+
+[params]
+  author = "Steven Lee (alitrack)"
+  description = "Forward Deployed Engineer — 15 years from factory floor to AI frontier"
+  keywords = "FDE, forward deployed engineer, Rust, Go, PostgreSQL, DuckDB, AI agent"
+  avatar = "/images/avatar.jpg"
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/alitrack"
+    weight = 1
+  [[params.social]]
+    name = "Twitter"
+    url = "https://twitter.com/alitrack"
+    weight = 2
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 2
+  [[menu.main]]
+    name = "Writing"
+    url = "/posts"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
